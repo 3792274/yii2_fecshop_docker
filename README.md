@@ -153,6 +153,11 @@ docker-compose up  // 按下ctrl+c退出停止。
 
 ```
 docker-compose up -d
+
+Remove all containers, so docker ps --all shows nothing.
+sudo systemctl stop docker
+sudo rm /var/lib/docker/network/files/local-kv.db
+sudo systemctl start docker
 ```
 
 查看compose启动的各个容器的状态：
@@ -256,6 +261,7 @@ http://www.fecshop.com/topic/612
 ```
 cd fecshop
 composer update
+chmod 755 ./init
 ./init
 ```
 执行完后，通过composer加载的文件就完成了。
@@ -273,7 +279,8 @@ composer update
 ，完成后  `./app/fecshop` 就是fecshop系统包的根目录
 
 ```
-cd fecshop   
+cd fecshop
+chmod 755 ./init
 ./init
 ```
 
