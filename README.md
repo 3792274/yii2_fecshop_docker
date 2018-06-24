@@ -56,7 +56,7 @@ Fecshop Docker
 
 `./example_data`: fecshop的示例数据部分
 
- 
+
 `./services`: 服务软件部分，譬如php nginx等
 
 `./services/php`: php部分
@@ -223,17 +223,17 @@ docker-compose exec php  bash
 cd /www/web
 ```
 
-**最新的fecshop版本参看**：https://github.com/fecshop/yii2_fecshop/releases，
-将`1.4.4.0` 替换成相应的fecshop版本。
+**最新的fecshop版本参看**：https://github.com/fecshop/yii2_fecshop/releases
+将`1.4.5.0` 替换成相应的fecshop版本。
 
 ```
-composer create-project fancyecommerce/fecshop-app-advanced  fecshop 1.4.4.0
+composer create-project fancyecommerce/fecshop-app-advanced  fecshop 1.4.5.0
    
 ```
 
-**一定要将 1.4.4.0 替换成最新的版本！！**  **一定要将 1.4.4.0 替换成最新的版本！！**
+**一定要将 1.4.5.0 替换成最新的版本！！**  **一定要将 1.4.5.0 替换成最新的版本！！**
 
-**一定要将 1.4.4.0 替换成最新的版本！！**  **一定要将 1.4.4.0 替换成最新的版本！！**
+**一定要将 1.4.5.0 替换成最新的版本！！**  **一定要将 1.4.5.0 替换成最新的版本！！**
 
 
 

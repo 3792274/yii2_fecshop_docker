@@ -2,10 +2,10 @@
 /**
  * FecShop file.
  *
- * @link http://www.fecshop.com/
+ * @link http://www.dlcmyt.top/
  *
  * @copyright Copyright (c) 2016 FecShop Software LLC
- * @license http://www.fecshop.com/license/
+ * @license http://www.dlcmyt.top/license/
  */
 return [
     'image' => [
@@ -13,25 +13,25 @@ return [
             
             'common' => [
                 'basedir'    => '@appimage/common',
-                'basedomain' => '//img.fecshop.com',
+                'basedomain' => '//img.dlcmyt.top',
             ],
             
             'appadmin' => [
                 'basedir'    => '@appimage/appadmin',
-                'basedomain' => '//img2.fecshop.com',
+                'basedomain' => '//img2.dlcmyt.top',
             ],
             'appfront' => [
                 'basedir'    => '@appimage/appfront',
-                'basedomain' => '//img3.fecshop.com',
+                'basedomain' => '//img3.dlcmyt.top',
             ],
             
             'apphtml5' => [
                 'basedir'    => '@appimage/apphtml5',
-                'basedomain' => '//img4.fecshop.com',
+                'basedomain' => '//img4.dlcmyt.top',
             ],
             'appserver' => [
                 'basedir'    => '@appimage/appserver',
-                'basedomain' => '//img5.fecshop.com',
+                'basedomain' => '//img5.dlcmyt.top',
             ],
         ],
     ],
